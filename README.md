@@ -219,6 +219,29 @@ The following steps outline the methodology used for this analysis:
 
 ![image](https://github.com/user-attachments/assets/43fea5c2-4cd2-44d4-ac69-3c3fa529d36d)
 
+## Part 4: Interpretation: Explain the significance of coefficients and the model's predictive power.
+
+**Data_2015**
+
+![image](https://github.com/user-attachments/assets/b2ce9391-7cf5-4e50-bd3a-c74e2fd71799)
+
+**Data_2016**
+
+![image](https://github.com/user-attachments/assets/531f2bfa-ffe7-4719-827e-579076c5a5f3)
+
+**Data_2017**
+
+![image](https://github.com/user-attachments/assets/f8623141-b865-422c-9aab-be17243b63ff)
+
+**Data_2018**
+
+![image](https://github.com/user-attachments/assets/313b20d8-1e91-4b33-9cad-1f7a0a0a8028)
+
+**Data_2019**
+
+![image](https://github.com/user-attachments/assets/d6d4a675-0d36-45f5-9e85-f0488285d4e8)
+
+
 
 Code Comments: Ensure all code is well-commented and readable.
 
