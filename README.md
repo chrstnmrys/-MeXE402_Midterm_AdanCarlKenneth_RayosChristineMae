@@ -171,6 +171,53 @@ The following steps outline the methodology used for this analysis:
 
 ## Part 2: Model Implementation: Use appropriate libraries (e.g., Scikit-learn in Python).
 
+### **2.1. Building the model**
+
+![image](https://github.com/user-attachments/assets/94a3bd79-62e8-4b70-bf84-ff7b3ea84795)
+
+### **2.2 Training the Model**
+
+![image](https://github.com/user-attachments/assets/0853c046-8693-4144-8750-1c7f65218fe9)
+
+### **2.3 Training the Model**
+
+![image](https://github.com/user-attachments/assets/b3ae2221-9749-4f3f-9cad-5dde2d630978)
+
+### **2.4 Inference**
+
+**Data_2015**
+
+![image](https://github.com/user-attachments/assets/348285f1-60f9-4ff5-8987-072b8b71310d)
+
+**Data_2016**
+
+![image](https://github.com/user-attachments/assets/68098ee1-972c-4f2c-b5c2-418d6c85ac7f)
+
+**Data_2017**
+
+![image](https://github.com/user-attachments/assets/aa2ab30f-5c2b-4b50-930e-be7299123de4)
+
+**Data_2018**
+
+![image](https://github.com/user-attachments/assets/2fa043b9-91f9-452b-a71a-21f91a2f9a9d)
+
+**Data_2019**
+
+![image](https://github.com/user-attachments/assets/8ea619b8-3e14-4af9-ac17-aad0e385fd47)
+
+## Part 3: Evaluation Metrics: Calculate R-squared, Mean Squared Error, etc.
+
+### **3.1 Calculate R-squared and MSE for the models**
+
+![image](https://github.com/user-attachments/assets/5d0ddf0f-3adc-46a6-8829-a0f0c462eb62)
+
+### **3.2 R-Squared**
+
+![image](https://github.com/user-attachments/assets/672b2425-3319-4d16-8cb7-692198748814)
+
+### **3.3 Mean Squared Error**
+
+![image](https://github.com/user-attachments/assets/43fea5c2-4cd2-44d4-ac69-3c3fa529d36d)
 
 
 Code Comments: Ensure all code is well-commented and readable.
