@@ -6,7 +6,12 @@
 
 *<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linear Regression* is a statistical analysis that is in common use in estimating the relationship between a one-dimensional dependent variable and the one or more independent variables. In the case of *World Happiness Report*, linear regression analysis can be of particular use to determine how economic production measured through Gross Domestic Product per Person – GDPPP, social support, health of a nation measured by life expectancy, freedom of an individual to make choices regarding his life, government credibility gauged by perceived corruption and citizens’ generosity are interrelated and affect the overall happiness of a certain country. Through the examination of these relations, it is possible to determine how much each factor adds to the level of happiness of subjects of this analysis and how much level of happiness is likely to be estimated at different future points in time on the basis of these factors.</div>
 
+## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
+
 ## II. Dataset Description
+
+## <p align="center">Linear Regression: *World Happiness Report*</p>
+
 <div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The datasets used for this analysis are from the World Happiness Reports spanning from 2015 to 2019. Each dataset includes several key variables that influence a country’s happiness score, including:</div>
 
 - **Happiness Score:** The overall score that ranks the happiness level of each country based on survey data.
@@ -25,8 +30,11 @@
 
 - **Dystopia Residual:** A hypothetical measure representing the worst possible scenario of a country in terms of these factors, used as a baseline for comparison.
 
+## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
 ## III. Project Objectives
+
+## <p align="center">Linear Regression: *World Happiness Report*</p>
 
 The main objectives of this project are:
 - Analyze the relationships between various factors (e.g., GDP, social support, life expectancy) and the happiness score using linear regression.
@@ -39,7 +47,11 @@ The main objectives of this project are:
 
 - Interpret the coefficients from the regression models to understand which factors have the most significant impact on a country’s happiness and how these relationships change over time.
 
+## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
+
 ## III. Methodology
+
+## <p align="center">Linear Regression: *World Happiness Report*</p>
 
 The following steps outline the methodology used for this analysis:
 
@@ -240,6 +252,8 @@ The following steps outline the methodology used for this analysis:
 **Data_2019**
 
 ![image](https://github.com/user-attachments/assets/d6d4a675-0d36-45f5-9e85-f0488285d4e8)
+
+## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
 
 
