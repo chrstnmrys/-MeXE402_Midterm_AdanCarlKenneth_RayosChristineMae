@@ -26,8 +26,152 @@
 - **Dystopia Residual:** A hypothetical measure representing the worst possible scenario of a country in terms of these factors, used as a baseline for comparison.
 
 
-
 ## III. Project Objectives
+
+The main objectives of this project are:
+- Analyze the relationships between various factors (e.g., GDP, social support, life expectancy) and the happiness score using linear regression.
+
+- Compare happiness trends over the years 2015 to 2019.
+
+- Build predictive models to estimate happiness scores based on economic and social indicators, using linear regression to identify key drivers of happiness.
+  
+- Evaluate model performance using metrics such as R-squared and Mean Squared Error (MSE) to assess the accuracy and predictive power of the regression models.
+
+- Interpret the coefficients from the regression models to understand which factors have the most significant impact on a country’s happiness and how these relationships change over time.
+
+## III. Methodology
+
+The following steps outline the methodology used for this analysis:
+
+## Part 1: Data Preprocessing: Handle missing values, outliers, and normalize data if necessary.
+
+### **1. Importing Datasets** 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/90cfe5d6-af20-4af5-b23e-d1f25ad6c30d"/>
+</p>
+
+**Data_2015**
+
+![image](https://github.com/user-attachments/assets/87b71d46-98ba-48f8-b4f8-21e89827bed1)
+
+**Data_2016**
+
+![image](https://github.com/user-attachments/assets/b767386a-21ec-40c8-a883-235013f5c437)
+
+**Data_2017**
+
+![image](https://github.com/user-attachments/assets/69f8faa0-497a-4157-98d8-3ffdc66fc9e2)
+
+**Data_2018**
+
+![image](https://github.com/user-attachments/assets/c9fbc323-c877-44cb-9d37-6efe9f924e81)
+
+**Data_2019**
+
+![image](https://github.com/user-attachments/assets/e8dafab5-b8f4-46bc-9331-f74758bc219d)
+
+### **2. Checking for missing values in the datasets**
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d826cae1-1287-4fc3-ae77-4d7a79cc3330"/>
+</p>
+
+**Data_2015**
+
+![image](https://github.com/user-attachments/assets/21dd090c-f013-4c46-ada3-74ed50e42fd1)
+
+**Data_2016**
+
+![image](https://github.com/user-attachments/assets/b923507b-5372-4f90-8af0-9726fa0ef07f)
+
+**Data_2017**
+
+![image](https://github.com/user-attachments/assets/f3005fbf-fa19-48bd-a378-bb8d17068494)
+
+**Data_2018**
+
+![image](https://github.com/user-attachments/assets/1449a3f2-ed8d-4ccf-ac38-46ec2cf8d824)
+      
+### Since there is one null in the Perception of corruption in the Data_2018, we need to fix it.
+
+### 2.1 Impute the missing value with the mean of the column
+
+![image](https://github.com/user-attachments/assets/bc86b603-597b-45a4-9ab9-b54adc3cf68d)
+
+### 2.2 Verify that there are no more missing values
+
+![image](https://github.com/user-attachments/assets/e0fc4123-d013-4bcd-b58b-fe6a08a3897c)
+
+**Data_2019**
+
+![image](https://github.com/user-attachments/assets/98567014-7e50-44a9-87e4-89bd5e3ad7d5)
+
+### **3. Standardizing features**
+
+![image](https://github.com/user-attachments/assets/3ff3789c-5838-4350-a374-27b8a3e22592)
+
+![image](https://github.com/user-attachments/assets/d9329ca5-524d-498d-a6a8-f93927ee9923)
+
+### **3.1 Extracting the dependent variable (Happiness Score)**
+
+![image](https://github.com/user-attachments/assets/ddf11495-d4ab-4013-a8b5-b7335137375d)
+
+### **3.2 Displaying the standardized data**
+
+![image](https://github.com/user-attachments/assets/089a7674-a134-494b-986b-926c558ad3d9)
+
+### **4. Getting the Inputs and Outputs
+
+**Data_2015_Inputs**
+
+![image](https://github.com/user-attachments/assets/44afec4a-a659-4130-816f-0684214fdb54)
+
+**Data_2015_Outputs**
+
+![image](https://github.com/user-attachments/assets/915eb236-c32d-4574-827a-c9fa57e139cc)
+
+**Data_2016_Inputs**
+
+![image](https://github.com/user-attachments/assets/3e4cd442-3a65-45c4-8e06-5bed90ddaf66)
+
+**Data_2016_Outputs**
+
+![image](https://github.com/user-attachments/assets/c37acee9-d13b-4aac-939e-f1a39e8c9a77)
+
+**Data_2017_Inputs**
+
+![image](https://github.com/user-attachments/assets/c238f3a2-021b-422c-996a-c7d5b450906c)
+
+**Data_2017_Outputs**
+
+![image](https://github.com/user-attachments/assets/21058594-f89d-4abf-9b5b-7cdcc2da08d5)
+
+**Data_2018_Inputs**
+
+![image](https://github.com/user-attachments/assets/008de900-5b89-41d4-9eb7-5b79c1449770)
+
+**Data_2018_Outputs**
+
+![image](https://github.com/user-attachments/assets/8c723a06-38b1-418e-af47-39125f0617da)
+
+**Data_2019_Inputs**
+
+![image](https://github.com/user-attachments/assets/637d7a75-a557-4d51-a6a5-7188aa093eac)
+
+**Data_2019_Outputs**
+
+![image](https://github.com/user-attachments/assets/3079c5a7-0b9d-44e3-b6ba-5a38878330ad)
+
+
+### **5. Creating the Training Set and the Test Set**
+
+![image](https://github.com/user-attachments/assets/79eb750f-d077-4ccf-9836-84ffb42d1f2c)
+
+
+## Part 2: Model Implementation: Use appropriate libraries (e.g., Scikit-learn in Python).
+
+
 
 Code Comments: Ensure all code is well-commented and readable.
 
