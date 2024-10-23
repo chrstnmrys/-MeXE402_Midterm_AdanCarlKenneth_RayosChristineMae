@@ -255,7 +255,9 @@ The following steps outline the methodology used for this analysis:
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
+# IV. Results
 
+# V. Discussion
 
 Code Comments: Ensure all code is well-commented and readable.
 
