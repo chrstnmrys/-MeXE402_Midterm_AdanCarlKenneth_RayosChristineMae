@@ -8,7 +8,7 @@
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
-## II. Dataset Description
+# II. Dataset Description
 
 ## <p align="center">Linear Regression: *World Happiness Report*</p>
 
@@ -32,11 +32,11 @@
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
-## III. Project Objectives
+# III. Project Objectives
 
-# Documentation
+# IV. Documentation
 
-## III. Methodology
+## 1. Methodology
 
 ## <p align="center">Linear Regression: *World Happiness Report*</p>
 
@@ -242,11 +242,11 @@ The following steps outline the methodology used for this analysis:
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
-# IV. Results
+## 2. Results
 
-# V. Discussion
+## 3. Discussion
 
-# VI. Reference
+# V. Reference
 
  - Wikipedia contributors. (2024b, October 15). Linear regression. Wikipedia. https://en.wikipedia.org/wiki/Linear_regression
  - World Happiness Report Link: https://www.kaggle.com/datasets/unsdsn/world-happiness 
