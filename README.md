@@ -34,20 +34,7 @@
 
 ## III. Project Objectives
 
-## <p align="center">Linear Regression: *World Happiness Report*</p>
 
-The main objectives of this project are:
-- Analyze the relationships between various factors (e.g., GDP, social support, life expectancy) and the happiness score using linear regression.
-
-- Compare happiness trends over the years 2015 to 2019.
-
-- Build predictive models to estimate happiness scores based on economic and social indicators, using linear regression to identify key drivers of happiness.
-  
-- Evaluate model performance using metrics such as R-squared and Mean Squared Error (MSE) to assess the accuracy and predictive power of the regression models.
-
-- Interpret the coefficients from the regression models to understand which factors have the most significant impact on a country’s happiness and how these relationships change over time.
-
-## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
 ## III. Methodology
 
