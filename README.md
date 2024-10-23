@@ -244,6 +244,11 @@ The following steps outline the methodology used for this analysis:
 
 ## 2. Results
 
+## Visualization
+## <p align="center">Linear Regression: *World Happiness Report*</p>
+## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
+
+
 ## 3. Discussion
 
 # V. Reference
