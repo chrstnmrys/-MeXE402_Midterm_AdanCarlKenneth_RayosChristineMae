@@ -34,7 +34,7 @@
 
 ## III. Project Objectives
 
-
+# Documentation
 
 ## III. Methodology
 
@@ -245,6 +245,13 @@ The following steps outline the methodology used for this analysis:
 # IV. Results
 
 # V. Discussion
+
+# VI. Reference
+
+ - Wikipedia contributors. (2024b, October 15). Linear regression. Wikipedia. https://en.wikipedia.org/wiki/Linear_regression
+ - World Happiness Report Link: https://www.kaggle.com/datasets/unsdsn/world-happiness 
+ - Credit Card Fraud Detection Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 
 Code Comments: Ensure all code is well-commented and readable.
 
