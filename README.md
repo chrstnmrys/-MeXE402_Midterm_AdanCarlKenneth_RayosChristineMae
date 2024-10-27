@@ -60,7 +60,7 @@ The following steps outline the methodology used for this analysis:
 
 ![image](https://github.com/user-attachments/assets/ce5aa007-ff9c-418c-aa74-df8c67d40518)
 
-### **1.4 Getting the Inputs and Outputs
+### **1.4 Getting the Inputs and Outputs**
 
 Independent Variables
 
