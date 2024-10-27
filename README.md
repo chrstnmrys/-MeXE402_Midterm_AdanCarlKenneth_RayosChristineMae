@@ -156,13 +156,13 @@ R-Squared
 
 - This picture shows that 99.99999035357195 percent, which means that the independent variable is a good fit to explain the variation in the dependent variable.
 
-### Mean Squared Error
+Mean Squared Error
 
 ![image](https://github.com/user-attachments/assets/54ba719b-d256-4c74-a4fe-2b2b219625df)
 
 - This picture shows the difference between actual and predicted values, and the values that we acquired is np.float64(9.863758664533044e-08).
 
-### Interpretation
+Interpretation
 
 ![image](https://github.com/user-attachments/assets/9a510d72-d230-40be-87aa-5131503748e0)
 
