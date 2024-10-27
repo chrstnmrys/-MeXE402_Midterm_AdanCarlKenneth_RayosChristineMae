@@ -133,8 +133,58 @@ y_test
 
 ## 2. Results
 
-## Visualization
 ## <p align="center">Linear Regression: *World Happiness Report*</p>
+
+### Summary & Findings 
+Inference 
+
+y_pred
+- These are the predicted happiness scores produced by the trained linear regression model for the same countries in the test set.
+
+![image](https://github.com/user-attachments/assets/5d907c00-3796-43b5-bdea-57f0cf295947)
+
+y_test
+- This is the actual data from the test set.
+  
+![image](https://github.com/user-attachments/assets/f881c2aa-1ee2-483e-8f13-1cf85bd95b96)
+
+- In summary the y_pred values and y_test values are close to each other, it means that the model's prediction is accurate. 
+
+R-Squared
+
+![image](https://github.com/user-attachments/assets/ea030447-62a3-439d-a7cc-3c8b3255ce9f)
+
+- This picture shows that 99.99999035357195 percent, which means that the independent variable is a good fit to explain the variation in the dependent variable.
+
+### Mean Squared Error
+
+![image](https://github.com/user-attachments/assets/54ba719b-d256-4c74-a4fe-2b2b219625df)
+
+- This picture shows the difference between actual and predicted values, and the values that we acquired is np.float64(9.863758664533044e-08).
+
+### Interpretation
+
+![image](https://github.com/user-attachments/assets/9a510d72-d230-40be-87aa-5131503748e0)
+
+- This picture show how much the dependent variable (Happiness Score) is expected to increase when the corresponding independent variable increases. Positive coefficients indicate a positive impact on happiness and Negative coefficients indicate a negative impact on happiness.
+- In this case the results that we obtain in Economy	is 1.000103, means that countries with higher GDPs tend to have higher happiness scores.
+- Family	is 0.999954, means that strong family tends to have higher happiness scores.
+- Health	is 0.999862, means that having a better health contribute to happiness and it just same in the Freedom, Trust, Generosity, and Dystopia Residual
+
+### Visualization
+
+### Actual vs. Predicted Happiness Score
+
+![image](https://github.com/user-attachments/assets/c7a5e1e7-bf85-4843-a38b-b92428b1cec5)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fb04fc4b-a815-4d5b-bcc5-be7fe53d2490"/>
+</p>
+
+- This plot compares the actual happiness scores from the test data with the predicted scores from the model.
+- The red line represents the line of perfect prediction (where actual = predicted).
+- Since the point is on line, it means that the model's prediction of Happiness Score is somewhat equal to the actual value.
+
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
 
