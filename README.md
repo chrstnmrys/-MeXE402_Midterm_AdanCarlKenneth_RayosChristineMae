@@ -48,16 +48,11 @@ The following steps outline the methodology used for this analysis:
 
 ![image](https://github.com/user-attachments/assets/f906f83a-6599-45b6-a8cd-8e7bb3291a93)
 
-**Data_2015**
-
 ![image](https://github.com/user-attachments/assets/6984e566-da2c-4fbf-9e97-3d6b7f468356)
 
 ### **1.2 Checking for missing values in the datasets**
 
-**Data_2015**
-
 ![image](https://github.com/user-attachments/assets/db3ad7fe-8f98-4cca-b429-69dc58e0b12d)
-
 
 ### **1.3 Standardizing features**
 
