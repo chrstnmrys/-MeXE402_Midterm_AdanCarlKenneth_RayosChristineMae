@@ -44,201 +44,95 @@ The following steps outline the methodology used for this analysis:
 
 ## Part 1: Data Preprocessing: Handle missing values, outliers, and normalize data if necessary.
 
-### **1. Importing Datasets** 
+### **1.1 Importing Datasets** 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/90cfe5d6-af20-4af5-b23e-d1f25ad6c30d"/>
-</p>
+![image](https://github.com/user-attachments/assets/f906f83a-6599-45b6-a8cd-8e7bb3291a93)
 
 **Data_2015**
 
-![image](https://github.com/user-attachments/assets/87b71d46-98ba-48f8-b4f8-21e89827bed1)
+![image](https://github.com/user-attachments/assets/6984e566-da2c-4fbf-9e97-3d6b7f468356)
 
-**Data_2016**
-
-![image](https://github.com/user-attachments/assets/b767386a-21ec-40c8-a883-235013f5c437)
-
-**Data_2017**
-
-![image](https://github.com/user-attachments/assets/69f8faa0-497a-4157-98d8-3ffdc66fc9e2)
-
-**Data_2018**
-
-![image](https://github.com/user-attachments/assets/c9fbc323-c877-44cb-9d37-6efe9f924e81)
-
-**Data_2019**
-
-![image](https://github.com/user-attachments/assets/e8dafab5-b8f4-46bc-9331-f74758bc219d)
-
-### **2. Checking for missing values in the datasets**
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d826cae1-1287-4fc3-ae77-4d7a79cc3330"/>
-</p>
+### **1.2 Checking for missing values in the datasets**
 
 **Data_2015**
 
-![image](https://github.com/user-attachments/assets/21dd090c-f013-4c46-ada3-74ed50e42fd1)
-
-**Data_2016**
-
-![image](https://github.com/user-attachments/assets/b923507b-5372-4f90-8af0-9726fa0ef07f)
-
-**Data_2017**
-
-![image](https://github.com/user-attachments/assets/f3005fbf-fa19-48bd-a378-bb8d17068494)
-
-**Data_2018**
-
-![image](https://github.com/user-attachments/assets/1449a3f2-ed8d-4ccf-ac38-46ec2cf8d824)
-      
-### Since there is one null in the Perception of corruption in the Data_2018, we need to fix it.
-
-### 2.1 Impute the missing value with the mean of the column
-
-![image](https://github.com/user-attachments/assets/bc86b603-597b-45a4-9ab9-b54adc3cf68d)
-
-### 2.2 Verify that there are no more missing values
-
-![image](https://github.com/user-attachments/assets/e0fc4123-d013-4bcd-b58b-fe6a08a3897c)
-
-**Data_2019**
-
-![image](https://github.com/user-attachments/assets/98567014-7e50-44a9-87e4-89bd5e3ad7d5)
-
-### **3. Standardizing features**
-
-![image](https://github.com/user-attachments/assets/3ff3789c-5838-4350-a374-27b8a3e22592)
-
-![image](https://github.com/user-attachments/assets/d9329ca5-524d-498d-a6a8-f93927ee9923)
-
-### **3.1 Extracting the dependent variable (Happiness Score)**
-
-![image](https://github.com/user-attachments/assets/ddf11495-d4ab-4013-a8b5-b7335137375d)
-
-### **3.2 Displaying the standardized data**
-
-![image](https://github.com/user-attachments/assets/089a7674-a134-494b-986b-926c558ad3d9)
-
-### **4. Getting the Inputs and Outputs
-
-**Data_2015_Inputs**
-
-![image](https://github.com/user-attachments/assets/44afec4a-a659-4130-816f-0684214fdb54)
-
-**Data_2015_Outputs**
-
-![image](https://github.com/user-attachments/assets/915eb236-c32d-4574-827a-c9fa57e139cc)
-
-**Data_2016_Inputs**
-
-![image](https://github.com/user-attachments/assets/3e4cd442-3a65-45c4-8e06-5bed90ddaf66)
-
-**Data_2016_Outputs**
-
-![image](https://github.com/user-attachments/assets/c37acee9-d13b-4aac-939e-f1a39e8c9a77)
-
-**Data_2017_Inputs**
-
-![image](https://github.com/user-attachments/assets/c238f3a2-021b-422c-996a-c7d5b450906c)
-
-**Data_2017_Outputs**
-
-![image](https://github.com/user-attachments/assets/21058594-f89d-4abf-9b5b-7cdcc2da08d5)
-
-**Data_2018_Inputs**
-
-![image](https://github.com/user-attachments/assets/008de900-5b89-41d4-9eb7-5b79c1449770)
-
-**Data_2018_Outputs**
-
-![image](https://github.com/user-attachments/assets/8c723a06-38b1-418e-af47-39125f0617da)
-
-**Data_2019_Inputs**
-
-![image](https://github.com/user-attachments/assets/637d7a75-a557-4d51-a6a5-7188aa093eac)
-
-**Data_2019_Outputs**
-
-![image](https://github.com/user-attachments/assets/3079c5a7-0b9d-44e3-b6ba-5a38878330ad)
+![image](https://github.com/user-attachments/assets/db3ad7fe-8f98-4cca-b429-69dc58e0b12d)
 
 
-### **5. Creating the Training Set and the Test Set**
+### **1.3 Standardizing features**
 
-![image](https://github.com/user-attachments/assets/79eb750f-d077-4ccf-9836-84ffb42d1f2c)
+![image](https://github.com/user-attachments/assets/b846f332-6c87-4c77-a0cc-f228fe136028)
+
+![image](https://github.com/user-attachments/assets/ce5aa007-ff9c-418c-aa74-df8c67d40518)
+
+### **1.4 Getting the Inputs and Outputs
+
+Independent Variables
+
+![image](https://github.com/user-attachments/assets/b51d1ea1-d341-418c-93a3-92138a14f4a8)
+
+Dependent Variables
+
+![image](https://github.com/user-attachments/assets/e3f356bf-0043-4632-8106-a2e488982229)
+
+### **1.5 Creating the Training Set and the Test Set**
+
+![image](https://github.com/user-attachments/assets/09e91773-b674-403f-8513-c9c7c85920d4)
+
+X_train
+
+![image](https://github.com/user-attachments/assets/b56fb5e3-6386-4853-a4bd-32fa8160628d)
+
+X_test
+
+![image](https://github.com/user-attachments/assets/c7805bc7-baa5-4eac-8652-86298928bb3e)
+
+y_train
+
+![image](https://github.com/user-attachments/assets/9f5edc9f-7068-455f-b1c7-9262a55d0ce7)
+
+y_test
+
+![image](https://github.com/user-attachments/assets/4d7eab36-180c-4966-866e-830cea996f55)
 
 
 ## Part 2: Model Implementation: Use appropriate libraries (e.g., Scikit-learn in Python).
 
 ### **2.1. Building the model**
 
-![image](https://github.com/user-attachments/assets/94a3bd79-62e8-4b70-bf84-ff7b3ea84795)
+![image](https://github.com/user-attachments/assets/4151fe1a-b6dd-478d-b5fe-c2970b7c842c)
 
 ### **2.2 Training the Model**
 
-![image](https://github.com/user-attachments/assets/0853c046-8693-4144-8750-1c7f65218fe9)
+![image](https://github.com/user-attachments/assets/1afb8315-e66f-4bf3-9c6d-0c57df2cb2b4)
 
-### **2.3 Training the Model**
+### **2.3 Inference**
 
-![image](https://github.com/user-attachments/assets/b3ae2221-9749-4f3f-9cad-5dde2d630978)
+y_pred
 
-### **2.4 Inference**
+![image](https://github.com/user-attachments/assets/e08e3e16-7bbf-429a-b1d6-86947d87894c)
 
-**Data_2015**
+y_test
 
-![image](https://github.com/user-attachments/assets/348285f1-60f9-4ff5-8987-072b8b71310d)
-
-**Data_2016**
-
-![image](https://github.com/user-attachments/assets/68098ee1-972c-4f2c-b5c2-418d6c85ac7f)
-
-**Data_2017**
-
-![image](https://github.com/user-attachments/assets/aa2ab30f-5c2b-4b50-930e-be7299123de4)
-
-**Data_2018**
-
-![image](https://github.com/user-attachments/assets/2fa043b9-91f9-452b-a71a-21f91a2f9a9d)
-
-**Data_2019**
-
-![image](https://github.com/user-attachments/assets/8ea619b8-3e14-4af9-ac17-aad0e385fd47)
+![image](https://github.com/user-attachments/assets/4e839acf-6de0-4b5e-a8dc-9d1645bde44c)
 
 ## Part 3: Evaluation Metrics: Calculate R-squared, Mean Squared Error, etc.
 
-### **3.1 Calculate R-squared and MSE for the models**
+### **3.1 R-Squared**
 
-![image](https://github.com/user-attachments/assets/5d0ddf0f-3adc-46a6-8829-a0f0c462eb62)
+![image](https://github.com/user-attachments/assets/42bbf008-3aa4-4e1b-bda0-8cda4f2b24f1)
 
-### **3.2 R-Squared**
+### **3.2 Adjusted R-Squared**
 
-![image](https://github.com/user-attachments/assets/672b2425-3319-4d16-8cb7-692198748814)
+![image](https://github.com/user-attachments/assets/2d0b729b-885d-478a-b602-117286ec9420)
 
 ### **3.3 Mean Squared Error**
 
-![image](https://github.com/user-attachments/assets/43fea5c2-4cd2-44d4-ac69-3c3fa529d36d)
+![image](https://github.com/user-attachments/assets/5365cf57-6beb-4e85-8cf5-7d47ce933b96)
 
 ## Part 4: Interpretation: Explain the significance of coefficients and the model's predictive power.
 
-**Data_2015**
-
-![image](https://github.com/user-attachments/assets/b2ce9391-7cf5-4e50-bd3a-c74e2fd71799)
-
-**Data_2016**
-
-![image](https://github.com/user-attachments/assets/531f2bfa-ffe7-4719-827e-579076c5a5f3)
-
-**Data_2017**
-
-![image](https://github.com/user-attachments/assets/f8623141-b865-422c-9aab-be17243b63ff)
-
-**Data_2018**
-
-![image](https://github.com/user-attachments/assets/313b20d8-1e91-4b33-9cad-1f7a0a0a8028)
-
-**Data_2019**
-
-![image](https://github.com/user-attachments/assets/d6d4a675-0d36-45f5-9e85-f0488285d4e8)
+![image](https://github.com/user-attachments/assets/f35e1b0d-687e-4093-ace6-cbc0e592921a)
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
