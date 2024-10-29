@@ -195,6 +195,9 @@ Interpretation
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
+### Summary & Findings 
+
+### Visualization
 
 ## 3. Discussion
 
