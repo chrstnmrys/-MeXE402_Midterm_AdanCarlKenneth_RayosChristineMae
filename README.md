@@ -34,6 +34,14 @@
 
 # III. Project Objectives
 
+1. To apply Linear Regression analysis in predicting outcomes based on a continuous dependent variable by performing data preprocessing, model implementation, and evaluating the model's predictive performance using metrics such as R-squared and Mean Squared Error.
+
+2. To interpret the coefficients and predictive power of the Linear Regression model, explaining the relationship between the independent and dependent variables.
+
+3. To execute Logistic Regression analysis for classifying outcomes of a categorical dependent variable through data preprocessing, model implementation, and evaluation using accuracy and confusion matrices.
+
+4. To assess the classification performance of the Logistic Regression model and discuss the importance of features in influencing the predicted outcomes.
+
 # IV. Documentation
 
 ## 1. Methodology
