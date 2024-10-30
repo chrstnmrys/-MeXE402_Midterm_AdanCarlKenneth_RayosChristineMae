@@ -8,7 +8,7 @@
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
-*<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linear Regression* is a statistical method used for binary classification problems. In the context of *Credit Card Fraud Detection*, the goal is to classify transactions as either "fraudulent" or "non-fraudulent." This technique works by modeling the probability that a given transaction belongs to a particular class based on various input features, such as time of transaction, some confidential features, and Transaction Amount.
+*<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logistic Regression* is a statistical method used for binary classification problems. In the context of *Credit Card Fraud Detection*, the goal is to classify transactions as either "fraudulent" or "non-fraudulent." This technique works by modeling the probability that a given transaction belongs to a particular class based on various input features, such as time of transaction, some confidential features, and Transaction Amount.
 
 # II. Dataset Description
 
