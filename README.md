@@ -311,7 +311,7 @@ y_test
 
 ![image](https://github.com/user-attachments/assets/ad361706-482d-48cf-8549-90f1b5f1edab)
 
--In summary the y_pred values and y_test values are close to each other, it means that the model's prediction is accurate.
+- In summary the y_pred values and y_test values are close to each other, it means that the model's prediction is accurate.
 
 Interpretation
   
