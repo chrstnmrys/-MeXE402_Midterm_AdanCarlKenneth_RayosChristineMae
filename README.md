@@ -8,6 +8,8 @@
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
+*<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linear Regression* is a statistical method used for binary classification problems. In the context of *Credit Card Fraud Detection*, the goal is to classify transactions as either "fraudulent" or "non-fraudulent." This technique works by modeling the probability that a given transaction belongs to a particular class based on various input features, such as time of transaction, some confidential features, and Transaction Amount.
+
 # II. Dataset Description
 
 ## <p align="center">Linear Regression: *World Happiness Report*</p>
@@ -31,6 +33,14 @@
 - **Dystopia Residual:** A hypothetical measure representing the worst possible scenario of a country in terms of these factors, used as a baseline for comparison.
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
+
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The datasets used for this analysis are from the Credit Card Fraud Detection that contains transactions made by credit cards in September 2013 by European cardholders. The dataset includes several key variables that influence the class weather a transaction is "fraudulent" or "non-fraudulent", including:
+
+  - **Time:** The time of transaction.
+
+  - **V1-V28:** The confidential feature that are the principal components obtained with PCA.
+
+  -  **Amount:** The transaction amount.
 
 # III. Project Objectives
 
@@ -139,6 +149,96 @@ y_test
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
+The following steps outline the methodology used for this analysis:
+
+## Part 1: Data Preprocessing: Encode categorical variables, balance classes if needed.
+
+### **1.1 Importing Datasets** 
+
+![image](https://github.com/user-attachments/assets/9a3374f2-bfca-4714-8d0a-c0e9a29137be)
+
+![image](https://github.com/user-attachments/assets/4142ad78-b239-46bb-8874-e2ff3da765a6)
+
+![image](https://github.com/user-attachments/assets/c377c948-dc9b-4111-95ab-323889467e1b)
+
+### **1.2 Getting the Inputs and Outputs**
+
+![image](https://github.com/user-attachments/assets/0e3304ae-fc69-45af-8482-935635aa39fa)
+
+X
+
+![image](https://github.com/user-attachments/assets/13fe3347-b2a3-4786-b439-79d3226a4dd9)
+
+y
+
+![image](https://github.com/user-attachments/assets/8bcd694b-f508-45b6-a41f-b57f9708d8f5)
+
+### **1.3 Creating the Training Set and the Test Set**
+
+![image](https://github.com/user-attachments/assets/aa9ca2e4-cffa-499f-98af-a2d3d7bbd20c)
+
+X_train
+
+![image](https://github.com/user-attachments/assets/bdaf326d-29a5-4fc2-b707-108ed0ff3c4a)
+
+X_test
+
+![image](https://github.com/user-attachments/assets/a63895dc-ac52-4c66-a45f-374ca87afb05)
+
+y_train
+
+![image](https://github.com/user-attachments/assets/61f64660-6f89-43fa-b7fb-96b1b0f3db1a)
+
+y_test
+
+![image](https://github.com/user-attachments/assets/c6c69f9c-7357-4cc9-ac40-502f2ccd9711)
+
+
+### **1.4 Feature Scaling**
+
+![image](https://github.com/user-attachments/assets/af34c60a-8fe3-41fa-96cf-24cbc7bb5418)
+
+X_train
+
+![image](https://github.com/user-attachments/assets/faa864fa-b971-4a20-b3f5-d246e5ff7e95)
+
+## Part 2: Model Implementation: Use appropriate libraries.
+
+### **2.1. Building the model**
+
+![image](https://github.com/user-attachments/assets/be40c465-7541-47d7-8a66-ded140388f4f)
+
+### **2.2. Training the Model**
+
+![image](https://github.com/user-attachments/assets/efa7b273-65c7-4bf7-9695-a6461b85dd9c)
+
+### **2.3. Inference**
+
+![image](https://github.com/user-attachments/assets/a5b65d99-e0e1-46c4-9690-4bf5c3ae9dea)
+
+y_pred
+
+![image](https://github.com/user-attachments/assets/488951e9-69a8-45be-af3e-71f6a8612752)
+
+y_test
+
+![image](https://github.com/user-attachments/assets/a127a7fa-e21f-4dd0-ae98-18944dc4a286)
+
+![image](https://github.com/user-attachments/assets/64c6b71a-b9f2-4033-88b0-54999a95f58f)
+![image](https://github.com/user-attachments/assets/3b80e44f-f3e2-4887-8fa3-031a704bf0f5)
+
+![image](https://github.com/user-attachments/assets/11c1d4b5-685b-4683-b9c1-e7940e71e5ce)
+![image](https://github.com/user-attachments/assets/018bcfac-4498-4d39-9d7f-121b5d5fada9)
+
+## Part 3: Evaluation Metrics: Calculate Accuracy.
+
+### **3.1. Confusion Matrix**
+
+![image](https://github.com/user-attachments/assets/1d7a9c25-0e33-44fb-813a-c67c64373d71)
+
+### **3.2. Accuracy**
+
+![image](https://github.com/user-attachments/assets/2288c8cd-2f6e-4652-803e-b4757600c963)
 
 ## 2. Results
 
@@ -196,9 +296,35 @@ Interpretation
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
+
 ### Summary & Findings 
 
+Inference 
+
+y_pred
+- These are the predicted class produced by the trained logistic regression model from the test set.
+
+![image](https://github.com/user-attachments/assets/5632e852-8c3f-4169-a7fb-6d851805d27d)
+
+y_test
+- These are the actual data from the test set.
+
+![image](https://github.com/user-attachments/assets/ad361706-482d-48cf-8549-90f1b5f1edab)
+
+-In summary the y_pred values and y_test values are close to each other, it means that the model's prediction is accurate.
+
+Interpretation
+  
 ### Visualization
+
+### Confussion Matrix Display
+
+![image](https://github.com/user-attachments/assets/f96e2648-ab0a-4847-807d-eaf9df271dd6)
+
+- The model accurately identified 56,489 legitimate transactions. 
+- The model wrongly identified 12 legitimate transactions as fraud, which can lead to customer inconvenience.
+- The model failed to detect 20 fraudulent transactions, which is critical because these represent potential losses.
+- The model successfully flagged 81 actual frauds. 
 
 ## 3. Discussion
 
