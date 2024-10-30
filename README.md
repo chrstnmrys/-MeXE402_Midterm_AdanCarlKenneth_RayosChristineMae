@@ -1,4 +1,4 @@
-#  <p align="center">**Linear and Logistic Regression**</p>
+#  <p align="center">**Linear and Logistic Regression Analysis**</p>
 
 # I. Introduction
 
