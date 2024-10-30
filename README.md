@@ -321,7 +321,9 @@ Interpretation
 
 ![image](https://github.com/user-attachments/assets/3fd837ff-f73c-4bd3-a155-3b9b2a3dfbc7)
 
-![image](https://github.com/user-attachments/assets/d46c3b67-03e4-45ca-a83d-d39f37ba4da7)
+<p align="center">
+  <img src= "https://github.com/user-attachments/assets/d46c3b67-03e4-45ca-a83d-d39f37ba4da7"/>
+</p>
 
 
 - The model accurately identified 56,489 legitimate transactions. 
