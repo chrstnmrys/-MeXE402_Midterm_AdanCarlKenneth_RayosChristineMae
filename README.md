@@ -80,23 +80,23 @@ Dependent Variables
 
 ### **1.5 Creating the Training Set and the Test Set**
 
-![image](https://github.com/user-attachments/assets/09e91773-b674-403f-8513-c9c7c85920d4)
+![image](https://github.com/user-attachments/assets/95df0593-5a86-4051-b75f-a195b09e821f)
 
 X_train
 
-![image](https://github.com/user-attachments/assets/b56fb5e3-6386-4853-a4bd-32fa8160628d)
+![image](https://github.com/user-attachments/assets/58493d99-fe08-4033-9a92-cc8902eefac7)
 
 X_test
 
-![image](https://github.com/user-attachments/assets/c7805bc7-baa5-4eac-8652-86298928bb3e)
+![image](https://github.com/user-attachments/assets/25e2aae7-a21e-4ff8-9535-c3cb14fb542d)
 
 y_train
 
-![image](https://github.com/user-attachments/assets/9f5edc9f-7068-455f-b1c7-9262a55d0ce7)
+![image](https://github.com/user-attachments/assets/732928af-bada-4ec4-af8a-628ef1b9c603)
 
 y_test
 
-![image](https://github.com/user-attachments/assets/4d7eab36-180c-4966-866e-830cea996f55)
+![image](https://github.com/user-attachments/assets/4ec43156-0454-4b5c-a012-1386ce063b48)
 
 
 ## Part 2: Model Implementation: Use appropriate libraries (e.g., Scikit-learn in Python).
@@ -113,11 +113,11 @@ y_test
 
 y_pred
 
-![image](https://github.com/user-attachments/assets/e08e3e16-7bbf-429a-b1d6-86947d87894c)
+![image](https://github.com/user-attachments/assets/16dda3f0-0732-4a6d-b6f5-0d0dbc987cf3)
 
 y_test
 
-![image](https://github.com/user-attachments/assets/4e839acf-6de0-4b5e-a8dc-9d1645bde44c)
+![image](https://github.com/user-attachments/assets/50dc187b-cd0a-4ac6-a0e3-a95a34d8ba21)
 
 ## Part 3: Evaluation Metrics: Calculate R-squared, Mean Squared Error, etc.
 
@@ -150,12 +150,12 @@ Inference
 y_pred
 - These are the predicted happiness scores produced by the trained linear regression model for the same countries in the test set.
 
-![image](https://github.com/user-attachments/assets/5d907c00-3796-43b5-bdea-57f0cf295947)
+![image](https://github.com/user-attachments/assets/16dda3f0-0732-4a6d-b6f5-0d0dbc987cf3)
 
 y_test
 - This is the actual data from the test set.
   
-![image](https://github.com/user-attachments/assets/f881c2aa-1ee2-483e-8f13-1cf85bd95b96)
+![image](https://github.com/user-attachments/assets/8cc6a9c0-280f-44d8-8249-a5dd15e4fac8)
 
 - In summary the y_pred values and y_test values are close to each other, it means that the model's prediction is accurate. 
 
