@@ -319,7 +319,10 @@ Interpretation
 
 ### Confussion Matrix Display
 
-![image](https://github.com/user-attachments/assets/f96e2648-ab0a-4847-807d-eaf9df271dd6)
+![image](https://github.com/user-attachments/assets/3fd837ff-f73c-4bd3-a155-3b9b2a3dfbc7)
+
+![image](https://github.com/user-attachments/assets/d46c3b67-03e4-45ca-a83d-d39f37ba4da7)
+
 
 - The model accurately identified 56,489 legitimate transactions. 
 - The model wrongly identified 12 legitimate transactions as fraud, which can lead to customer inconvenience.
