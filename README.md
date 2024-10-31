@@ -314,7 +314,7 @@ This plot is a scatter plot showing the relationship between actual happiness sc
 - Red Line: The red line represents the line y=x,  which is the line of perfect predictions. If all points lie exactly on this line, it would indicate that the model predicted each happiness score perfectly
 
 Analysis
-- Since most points are close to the red line, it indicates that the model is predicting the happiness scores fairly accurately though some points deviate from the line, indicating errors in the model’s predictions for those specific observations.
+- Since most points are close to the red line, it indicates that the model is predicting the happiness scores fairly accurately though some points far from the line, indicating errors in the model’s predictions for those specific observations.
 
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
@@ -375,6 +375,8 @@ F1 Score
 - The model successfully flagged 81 actual frauds. (True Positive)
 
 ## 3. Discussion
+
+
 
 # V. Reference
 
