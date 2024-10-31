@@ -404,11 +404,3 @@ Key Findings:
  - World Happiness Report Link: https://www.kaggle.com/datasets/unsdsn/world-happiness 
  - Credit Card Fraud Detection Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-
-Code Comments: Ensure all code is well-commented and readable.
-
-Methodology: Document each step taken during analysis.
-
-Results: Summarize findings and include tables or charts where appropriate.
-
-Discussion: Reflect on the results, compare the two regression methods, and mention any limitations.
