@@ -376,7 +376,6 @@ Transaction Time
   <img src= "https://github.com/user-attachments/assets/d46c3b67-03e4-45ca-a83d-d39f37ba4da7"/>
 </p>
 
-
 - The model accurately identified 56,489 legitimate transactions. (True Negative)
 - The model wrongly identified 12 legitimate transactions as fraud, which can lead to customer inconvenience. (False Positive)
 - The model failed to detect 20 fraudulent transactions, which is critical because these represent potential losses. (False Negative)
@@ -384,6 +383,11 @@ Transaction Time
 
 ## 3. Discussion
 
+## <p align="center">Linear Regression: *$${\color{red}World Happiness Report}$$*</p>
+
+$${\color{red}Red}$$
+
+## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
 
 # V. Reference
