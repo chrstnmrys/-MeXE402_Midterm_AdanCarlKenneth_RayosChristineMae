@@ -64,88 +64,99 @@ The following steps outline the methodology used for this analysis:
 
 ### **1.1 Importing Datasets** 
 
-![image](https://github.com/user-attachments/assets/f906f83a-6599-45b6-a8cd-8e7bb3291a93)
+![image](https://github.com/user-attachments/assets/20b20c75-0e84-4492-8a2d-c8dd4c7a371e)
 
-![image](https://github.com/user-attachments/assets/6984e566-da2c-4fbf-9e97-3d6b7f468356)
+![image](https://github.com/user-attachments/assets/3aa0f32d-85e3-40a7-826c-5fcc3e06ef42)
 
 ### **1.2 Checking for missing values in the datasets**
 
-![image](https://github.com/user-attachments/assets/db3ad7fe-8f98-4cca-b429-69dc58e0b12d)
+![image](https://github.com/user-attachments/assets/64eeac9d-a5ee-4fa3-9cc8-2559c531cc95)
+
+![image](https://github.com/user-attachments/assets/882526e7-71eb-4e05-be93-21584afa9f6b)
+ - This picture shows that there is no missing values in the dataset
 
 ### **1.3 Standardizing features**
 
-![image](https://github.com/user-attachments/assets/b846f332-6c87-4c77-a0cc-f228fe136028)
+![image](https://github.com/user-attachments/assets/3eb72ced-2590-4853-9cb6-f3e3fbab89b5)
 
-![image](https://github.com/user-attachments/assets/ce5aa007-ff9c-418c-aa74-df8c67d40518)
+![image](https://github.com/user-attachments/assets/2d9496c9-da2a-4786-9fd6-3f15500623b3)
 
-### **1.4 Getting the Inputs and Outputs**
+### **1.4 Extracting the dependent variable (Happiness Score)**
+
+![image](https://github.com/user-attachments/assets/477f5014-990f-4b58-a74d-435f1274b840)
+
+### **1.5 Displaying the standardized data**
+
+![image](https://github.com/user-attachments/assets/db973705-134b-4e03-bbd4-21a28448774e)
+
+### **1.6 Getting the Inputs and Outputs**
 
 Independent Variables
 
-![image](https://github.com/user-attachments/assets/b51d1ea1-d341-418c-93a3-92138a14f4a8)
+![image](https://github.com/user-attachments/assets/55b9d086-0406-4720-bf47-4dbadfdfe0af)
 
 Dependent Variables
 
-![image](https://github.com/user-attachments/assets/e3f356bf-0043-4632-8106-a2e488982229)
+![image](https://github.com/user-attachments/assets/63e7159f-7dff-41c6-9202-4a0f6fd4db07)
 
-### **1.5 Creating the Training Set and the Test Set**
+### **1.7 Creating the Training Set and the Test Set**
 
-![image](https://github.com/user-attachments/assets/95df0593-5a86-4051-b75f-a195b09e821f)
+![image](https://github.com/user-attachments/assets/81ebebd8-9703-42d7-9c06-ab947e8f48f8)
 
 X_train
 
-![image](https://github.com/user-attachments/assets/58493d99-fe08-4033-9a92-cc8902eefac7)
+![image](https://github.com/user-attachments/assets/89f41728-703e-43af-bf41-ebbe724a1002)
 
 X_test
 
-![image](https://github.com/user-attachments/assets/25e2aae7-a21e-4ff8-9535-c3cb14fb542d)
+![image](https://github.com/user-attachments/assets/de8b723d-5e41-42c1-91f4-42e6a3dfcc41)
 
 y_train
 
-![image](https://github.com/user-attachments/assets/732928af-bada-4ec4-af8a-628ef1b9c603)
+![image](https://github.com/user-attachments/assets/f37b29f1-4654-45b3-b37c-4607a0034a2d)
 
 y_test
 
-![image](https://github.com/user-attachments/assets/4ec43156-0454-4b5c-a012-1386ce063b48)
+![image](https://github.com/user-attachments/assets/024b6670-ce9d-4ce2-9a35-81174ddc4ea4)
 
 
 ## Part 2: Model Implementation: Use appropriate libraries (e.g., Scikit-learn in Python).
 
 ### **2.1. Building the model**
 
-![image](https://github.com/user-attachments/assets/4151fe1a-b6dd-478d-b5fe-c2970b7c842c)
+![image](https://github.com/user-attachments/assets/71f8fde8-0f23-4269-9379-a82e86162b61)
 
 ### **2.2 Training the Model**
 
-![image](https://github.com/user-attachments/assets/1afb8315-e66f-4bf3-9c6d-0c57df2cb2b4)
+![image](https://github.com/user-attachments/assets/903ac8a7-5627-477f-a189-6b68ab97c324)
 
 ### **2.3 Inference**
 
 y_pred
 
-![image](https://github.com/user-attachments/assets/16dda3f0-0732-4a6d-b6f5-0d0dbc987cf3)
+![image](https://github.com/user-attachments/assets/2a9b9b35-e903-4faa-8819-2b5862a24873)
 
 y_test
 
-![image](https://github.com/user-attachments/assets/50dc187b-cd0a-4ac6-a0e3-a95a34d8ba21)
+![image](https://github.com/user-attachments/assets/564219f5-e4c0-42d7-9c7d-a7f3431d5b1e)
 
 ## Part 3: Evaluation Metrics: Calculate R-squared, Mean Squared Error, etc.
 
 ### **3.1 R-Squared**
 
-![image](https://github.com/user-attachments/assets/42bbf008-3aa4-4e1b-bda0-8cda4f2b24f1)
+![image](https://github.com/user-attachments/assets/0b086623-ac56-467b-8592-2c68151885eb)
 
 ### **3.2 Adjusted R-Squared**
 
-![image](https://github.com/user-attachments/assets/2d0b729b-885d-478a-b602-117286ec9420)
+![image](https://github.com/user-attachments/assets/2ddb0720-d5be-4310-9cb2-beeaa9f25eab)
 
 ### **3.3 Mean Squared Error**
 
-![image](https://github.com/user-attachments/assets/5365cf57-6beb-4e85-8cf5-7d47ce933b96)
+![image](https://github.com/user-attachments/assets/daeb8169-bbd5-45c9-bd3e-c9240acdf0a2)
 
 ## Part 4: Interpretation: Explain the significance of coefficients and the model's predictive power.
 
-![image](https://github.com/user-attachments/assets/f35e1b0d-687e-4093-ace6-cbc0e592921a)
+![image](https://github.com/user-attachments/assets/dd4d94f7-d2f4-471a-809b-ced518ab530a)
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
