@@ -246,11 +246,11 @@ y_test
 
 ### **3.1. Confusion Matrix**
 
-![image](https://github.com/user-attachments/assets/1d7a9c25-0e33-44fb-813a-c67c64373d71)
+![image](https://github.com/user-attachments/assets/37d9d966-492a-4a13-ade3-6808df294335)
 
 ### **3.2. Accuracy**
 
-![image](https://github.com/user-attachments/assets/2288c8cd-2f6e-4652-803e-b4757600c963)
+![image](https://github.com/user-attachments/assets/57c7fc8a-4e7e-4662-8812-85390d02af69)
 
 ## 2. Results
 
@@ -342,22 +342,22 @@ y_test
 Accuracy
 - The model shows high accuracy, but potentially misleading due to imbalance.
 
-![image](https://github.com/user-attachments/assets/5b71ac43-3ac7-4a80-8ff0-3c36460ad282)
+![image](https://github.com/user-attachments/assets/97ec07e3-7311-409e-b3b5-95e4a4990895)
 
 Precision (Positive Predictive Value)
-- The model shows good fraud detection accuracy, with 87.1% of projected fraudulent transactions turning out to be fraudulent.
+- The model shows good fraud detection accuracy, with 87.5% of projected fraudulent transactions turning out to be fraudulent.
 
-![image](https://github.com/user-attachments/assets/2e2d3396-7d2e-46ff-b483-1481b5e45a05)
+![image](https://github.com/user-attachments/assets/aacc58d7-75f7-499d-84a3-34a66da2b99e)
 
 Recall (Sensitivity or True Positive Rate)
-- About 80.2% of real fraud cases are captured by the model; nonetheless, it would need to be improved to catch additional fraud.
+- About 62.4% of real fraud cases are captured by the model; nonetheless, it would need to be improved to catch additional fraud.
 
-![image](https://github.com/user-attachments/assets/81c1e306-f849-4dd2-8d5f-51047f8a27b0)
+![image](https://github.com/user-attachments/assets/9615552a-0ffd-4e47-90ab-aa920eefbf6f)
 
 F1 Score
 - The model balances precision and recall, providing an overall performance score for fraud detection.
 
-![image](https://github.com/user-attachments/assets/68a2efab-58d3-4a54-b11e-7ec44d48b871)
+![image](https://github.com/user-attachments/assets/3468078d-dd91-458c-91e7-05e5e966bcca)
 
 Importance of the features
 
@@ -375,13 +375,13 @@ Transaction Time
 ![image](https://github.com/user-attachments/assets/3fd837ff-f73c-4bd3-a155-3b9b2a3dfbc7)
 
 <p align="center">
-  <img src= "https://github.com/user-attachments/assets/d46c3b67-03e4-45ca-a83d-d39f37ba4da7"/>
+  <img src= "https://github.com/user-attachments/assets/d74e0b71-4488-41f9-a91a-de0ffd78129b"/>
 </p>
 
-- The model accurately identified 56,489 legitimate transactions. (True Negative)
-- The model wrongly identified 12 legitimate transactions as fraud, which can lead to customer inconvenience. (False Positive)
-- The model failed to detect 20 fraudulent transactions, which is critical because these represent potential losses. (False Negative)
-- The model successfully flagged 81 actual frauds. (True Positive)
+- The model accurately identified 56,852 legitimate transactions. (True Negative)
+- The model wrongly identified 9 legitimate transactions as fraud, which can lead to customer inconvenience. (False Positive)
+- The model failed to detect 38 fraudulent transactions, which is critical because these represent potential losses. (False Negative)
+- The model successfully flagged 63 actual frauds. (True Positive)
 
 ## 3. Discussion
 
@@ -407,11 +407,11 @@ Key Findings:
 
 Accuracy by itself, however, can be deceptive due to the unbalanced structure of fraud detection datasets; therefore, additional metrics offer a more profound understanding.
 
-3. The model's precision is 87.1%, meaning 87.1% of flagged transactions were truly fraudulent, indicating a low false positive rate and minimizing customer inconvenience from mistakenly flagged transactions.
+3. The model's precision is 87.5%, meaning 87.5% of flagged transactions were truly fraudulent, indicating a low false positive rate and minimizing customer inconvenience from mistakenly flagged transactions.
 
-4. The model's recall is 80.2%, which means it detects 80.2% of fraud instances, however there is room to further improve the reduction of undiscovered fraud.
+4. The model's recall is 62.4%, which means it detects 62.4% of fraud instances, however there is room to further improve the reduction of undiscovered fraud.
 
-5. With an F1 Score of 83.5%, the model helps reduce fraud loss by efficiently detecting fraudulent transactions while reducing false positives.
+5. With an F1 Score of 72.8%, the model helps reduce fraud loss by efficiently detecting fraudulent transactions while reducing false positives.
 
 Overall, the logistic regression model is a useful tool for reducing financial losses from fraud since it performs well overall, with high dependability in its positive fraud predictions and good coverage in identifying actual fraudulent transactions.
 
