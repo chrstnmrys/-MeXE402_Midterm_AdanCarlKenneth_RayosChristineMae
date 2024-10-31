@@ -369,10 +369,10 @@ F1 Score
 </p>
 
 
-- The model accurately identified 56,489 legitimate transactions. 
-- The model wrongly identified 12 legitimate transactions as fraud, which can lead to customer inconvenience.
-- The model failed to detect 20 fraudulent transactions, which is critical because these represent potential losses.
-- The model successfully flagged 81 actual frauds. 
+- The model accurately identified 56,489 legitimate transactions. (True Negative)
+- The model wrongly identified 12 legitimate transactions as fraud, which can lead to customer inconvenience. (False Positive)
+- The model failed to detect 20 fraudulent transactions, which is critical because these represent potential losses. (False Negative)
+- The model successfully flagged 81 actual frauds. (True Positive)
 
 ## 3. Discussion
 
