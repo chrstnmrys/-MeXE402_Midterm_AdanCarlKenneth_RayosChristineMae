@@ -1,5 +1,6 @@
-#  <p align="center">**$${\color{red}Linear \space \color{red}and \space \color{red}Logistic \space \color{red}Regression \space \color{red}{Analysis}}$$**</p>
-$${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}{github}}$$
+# <p align="center">**$${\color{red}Linear \space \color{red}and \space \color{red}Logistic \space \color{red}Regression \space \color{red}{Analysis}}$$**</p>
+
+
 # I. Introduction
 
 ## <p align="center">Linear Regression: *World Happiness Report*</p>
@@ -385,8 +386,15 @@ Transaction Time
 
 ## <p align="center">Linear Regression: *World Happiness Report*</p>
 
+In this analysis, we examined the World Happiness Report dataset to understand how various socio-economic factors—such as GDP per capita, social support, and health—influence a country’s Happiness Score. We applied Linear Regression to identify the impact of these factors on happiness.
 
+Key Findings:
+1. Linear Regression Model results showed that factors like GDP per capita, social support, and health have a positive association with happiness, meaning that higher values in these variables tend to correspond with higher happiness scores.
 
+2. The model’s R-squared value was 0.9406654043085512 percent, indicating that the model's prediction is somehow accurate to the true value. Mean Squared Error (MSE) value was 0.06067138321461446, it means the model's predictive accuracy is a good fit indicating that there is fairly difference between the true value and predicted value.
+
+3. Each coefficient in the model helps explain the effect of a one-unit increase in a socio-economic factor on the happiness score. For instance, a higher coefficient for GDP per capita implies a stronger influence of economic production on happiness score.
+   
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
 
