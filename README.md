@@ -360,6 +360,7 @@ F1 Score
 ![image](https://github.com/user-attachments/assets/68a2efab-58d3-4a54-b11e-7ec44d48b871)
 
 Importance of the features
+
 Transaction Amount
 - Strange transaction amounts are frequently associated with fraud because, in order to evade discovery, scammers may try to charge big sums or test the card with little purchases.
 - Since notable variations from a user's typical spending pattern can be powerful indicators of fraudulent behavior, models can be impacted as frequently include transaction amount as a key characteristic.
