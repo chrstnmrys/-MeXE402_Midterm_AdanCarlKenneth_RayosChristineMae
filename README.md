@@ -1,5 +1,5 @@
-#  <p align="center">**Linear and Logistic Regression Analysis**</p>
-
+#  <p align="center">**$${\color{red}Linear \space \color{red}and \space \color{red}Logistic \space \color{red}Regression \space \color{red}{Analysis}}$$**</p>
+$${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}{github}}$$
 # I. Introduction
 
 ## <p align="center">Linear Regression: *World Happiness Report*</p>
@@ -383,9 +383,9 @@ Transaction Time
 
 ## 3. Discussion
 
-## <p align="center">Linear Regression: *$${\color{red}World Happiness Report}$$*</p>
+## <p align="center">Linear Regression: *World Happiness Report*</p>
 
-$${\color{red}Red}$$
+
 
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
