@@ -1,4 +1,4 @@
-# <p align="center">**$${\color{red}Linear \space \color{red}and \space \color{red}Logistic \space \color{red}Regression \space \color{red}{Analysis}}$$**</p>
+# <p align="center">**$$ {\color{red}Linear \space \color{red}and \space \color{red}Logistic \space \color{red}Regression \space \color{red}{Analysis}} $$**</p>
 
 
 # I. Introduction
