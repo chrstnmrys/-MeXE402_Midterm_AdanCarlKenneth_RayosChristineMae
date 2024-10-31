@@ -257,7 +257,7 @@ y_test
 ## <p align="center">Linear Regression: *World Happiness Report*</p>
 
 ### Summary & Findings 
-Inference:
+#### Inference:
 
 y_pred
 - These are the predicted happiness scores produced by the trained linear regression model for the same countries in the test set.
@@ -283,7 +283,7 @@ Mean Squared Error
 
 - This picture shows the difference between actual and predicted values, and the values that we acquired is np.float64(0.06067138321461446).
   
-Interpretation:
+#### Interpretation:
 
 ![image](https://github.com/user-attachments/assets/dd4d94f7-d2f4-471a-809b-ced518ab530a)
 
