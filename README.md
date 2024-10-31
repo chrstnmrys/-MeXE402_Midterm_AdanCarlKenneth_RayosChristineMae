@@ -337,6 +337,26 @@ y_test
 - In summary the y_pred values and y_test values are close to each other, it means that the model's prediction is accurate.
 
 Interpretation
+
+Accuracy
+- The model shows high accuracy, but potentially misleading due to imbalnace.
+
+![image](https://github.com/user-attachments/assets/5b71ac43-3ac7-4a80-8ff0-3c36460ad282)
+
+Precision (Positive Predictive Value)
+- The model shows good fraud detection accuracy, with 87.1% of projected fraudulent transactions turning out to be fraudulent.
+
+![image](https://github.com/user-attachments/assets/2e2d3396-7d2e-46ff-b483-1481b5e45a05)
+
+Recall (Sensitivity or True Positive Rate)
+- About 80.2% of real fraud cases are captured by the model; nonetheless, it would need to be improved to catch additional fraud.
+
+![image](https://github.com/user-attachments/assets/81c1e306-f849-4dd2-8d5f-51047f8a27b0)
+
+F1 Score
+- The model balances precision and recall, providing an overall performance score for fraud detection.
+
+![image](https://github.com/user-attachments/assets/68a2efab-58d3-4a54-b11e-7ec44d48b871)
   
 ### Visualization
 
