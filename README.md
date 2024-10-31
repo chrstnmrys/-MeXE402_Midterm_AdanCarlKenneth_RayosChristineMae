@@ -323,7 +323,7 @@ Analysis
 
 ### Summary & Findings 
 
-Inference:
+#### Inference:
 
 y_pred
 - These are the predicted class produced by the trained logistic regression model from the test set.
@@ -337,7 +337,7 @@ y_test
 
 - In summary the y_pred values and y_test values are close to each other, it means that the model's prediction is accurate.
 
-Interpretation:
+#### Interpretation:
 
 Accuracy
 - The model shows high accuracy, but potentially misleading due to imbalance.
