@@ -256,7 +256,7 @@ y_test
 ## <p align="center">Linear Regression: *World Happiness Report*</p>
 
 ### Summary & Findings 
-Inference 
+Inference:
 
 y_pred
 - These are the predicted happiness scores produced by the trained linear regression model for the same countries in the test set.
@@ -282,7 +282,7 @@ Mean Squared Error
 
 - This picture shows the difference between actual and predicted values, and the values that we acquired is np.float64(0.06067138321461446).
   
-Interpretation
+Interpretation:
 
 ![image](https://github.com/user-attachments/assets/dd4d94f7-d2f4-471a-809b-ced518ab530a)
 
@@ -322,7 +322,7 @@ Analysis
 
 ### Summary & Findings 
 
-Inference 
+Inference:
 
 y_pred
 - These are the predicted class produced by the trained logistic regression model from the test set.
@@ -336,7 +336,7 @@ y_test
 
 - In summary the y_pred values and y_test values are close to each other, it means that the model's prediction is accurate.
 
-Interpretation
+Interpretation:
 
 Accuracy
 - The model shows high accuracy, but potentially misleading due to imbalnace.
@@ -357,7 +357,15 @@ F1 Score
 - The model balances precision and recall, providing an overall performance score for fraud detection.
 
 ![image](https://github.com/user-attachments/assets/68a2efab-58d3-4a54-b11e-7ec44d48b871)
-  
+
+Importance of the features
+Transaction Amount
+- Strange transaction amounts are frequently associated with fraud because, in order to evade discovery, scammers may try to charge big sums or test the card with little purchases.
+- Since notable variations from a user's typical spending pattern can be powerful indicators of fraudulent behavior, models can be impacted as frequently include transaction amount as a key characteristic.
+
+Transaction Time
+- Unusual periods, like late at night when the real cardholder might not be active, are more likely to see fraudulent transactions take place.
+- It impacted the model as it may detect suspicious activity during off-peak hours by using time-related data (such as the day of the week and the hour).
 ### Visualization
 
 ### Confussion Matrix Display
