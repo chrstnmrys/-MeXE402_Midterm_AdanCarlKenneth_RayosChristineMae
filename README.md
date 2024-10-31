@@ -41,7 +41,7 @@
 
   - **V1-V28:** The confidential feature that are the principal components obtained with PCA.
 
-  -  **Amount:** The transaction amount.
+  - **Amount:** The transaction amount.
 
 # III. Project Objectives
 
