@@ -39,7 +39,7 @@
 
   - **Time:** The time of transaction.
 
-  - **V1-V28:** The confidential feature that are the principal components obtained with PCA.
+  - **V1-V28:** The principal components obtained with PCA.
 
   - **Amount:** The transaction amount.
 
@@ -340,7 +340,7 @@ y_test
 Interpretation:
 
 Accuracy
-- The model shows high accuracy, but potentially misleading due to imbalnace.
+- The model shows high accuracy, but potentially misleading due to imbalance.
 
 ![image](https://github.com/user-attachments/assets/5b71ac43-3ac7-4a80-8ff0-3c36460ad282)
 
@@ -398,6 +398,22 @@ Key Findings:
    
 ## <p align="center">Logistic Regression: *Credit Card Fraud Detection*</p>
 
+We looked at the Credit Card Fraud Detection dataset in this analysis to see how different factors, including the transaction amount, time, and principle components derived via PCA, affect the classification of a transaction as "fraudulent" or "non-fraudulent." Logistic regression was used to determine the influence of these variables.
+
+Key Findings:
+1. The accuracy of the model's prediction is indicated by the closeness of the y_pred and y_test values.
+
+2. With a high accuracy of 99.99%, the model does an adequate job of correctly identifying transactions that are both valid and fraudulent.
+
+Accuracy by itself, however, can be deceptive due to the unbalanced structure of fraud detection datasets; therefore, additional metrics offer a more profound understanding.
+
+3. The model's precision is 87.1%, meaning 87.1% of flagged transactions were truly fraudulent, indicating a low false positive rate and minimizing customer inconvenience from mistakenly flagged transactions.
+
+4. The model's recall is 80.2%, which means it detects 80.2% of fraud instances, however there is room to further improve the reduction of undiscovered fraud.
+
+5. With an F1 Score of 83.5%, the model helps reduce fraud loss by efficiently detecting fraudulent transactions while reducing false positives.
+
+Overall, the logistic regression model is a useful tool for reducing financial losses from fraud since it performs well overall, with high dependability in its positive fraud predictions and good coverage in identifying actual fraudulent transactions.
 
 # V. Reference
 
